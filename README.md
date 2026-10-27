@@ -3,12 +3,14 @@
 > **A complete, open-source music production ecosystem.**  
 > An arrangement-focused Digital Audio Workstation (DAW) accompanied by a suite of 11 professional instrument and effect plugins (VST3, Audio Unit, and Standalone).
 
+[English](README.md) | [Español](README.es.md)
+
 [![macOS Build](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-blue.svg)](https://github.com)
 [![License: GPL v3](https://img.shields.io/badge/DAW%20License-GPLv3-green.svg)](estudio/LICENSE)
 [![License: AGPL v3](https://img.shields.io/badge/Plugins%20License-AGPLv3-yellow.svg)](plugins/LICENSE)
 [![Language](https://img.shields.io/badge/Language-English%20%7C%20Espa%C3%B1ol-orange.svg)](#language--idioma)
 
-*Para la documentación original completa y detallada en español, consulta [`LEEME.txt`](LEEME.txt).*
+*Para consultar la versión en español de este documento, visita [`README.es.md`](README.es.md). Para el registro de cambios original y detallado, consulta [`LEEME.txt`](LEEME.txt).*
 
 ---
 
@@ -176,6 +178,8 @@ cmake --build plugins/build-linux
 ```
 raccoon/
 ├── Instalar Racoon.command     # One-click automated macOS installer and builder
+├── README.md                   # Main project documentation (English)
+├── README.es.md                # Documentación en español
 ├── LEEME.txt                   # Complete original documentation & changelog (Spanish)
 ├── .github/
 │   └── workflows/windows.yml   # Windows CI compilation workflow
