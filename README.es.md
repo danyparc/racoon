@@ -10,6 +10,10 @@
 [![Licencia Plugins: AGPL v3](https://img.shields.io/badge/Licencia%20Plugins-AGPLv3-yellow.svg)](plugins/LICENSE)
 [![Idioma](https://img.shields.io/badge/Idioma-Espa%C3%B1ol%20%7C%20English-orange.svg)](#idioma--language)
 
+<p align="center">
+  <img src="docs/images/racoon-studio.jpg" alt="Interfaz de Estudio Racoon DAW" width="100%">
+</p>
+
 *Para consultar el registro de cambios histórico y la documentación original sin formato, revisa [`LEEME.txt`](LEEME.txt).*
 
 ---
@@ -177,6 +181,9 @@ cmake --build plugins/build-linux
 
 ```
 racoon/
+├── docs/
+│   └── images/
+│       └── racoon-studio.jpg   # Captura de pantalla de la interfaz de Estudio Racoon
 ├── Instalar Racoon.command     # Instalador y compilador automatizado para macOS
 ├── README.md                   # Documentación principal en inglés
 ├── README.es.md                # Documentación en español
