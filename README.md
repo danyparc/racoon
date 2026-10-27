@@ -129,8 +129,8 @@ Prerequisites: macOS 11.0 or newer (Universal: Apple Silicon M1/M2/M3/M4 & Intel
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/parcgm/raccoon.git
-   cd raccoon
+   git clone https://github.com/danyparc/racoon.git
+   cd racoon
    ```
 2. Double-click **`Instalar Racoon.command`** in Finder, or run:
    ```bash
@@ -176,7 +176,7 @@ cmake --build plugins/build-linux
 ## Repository Structure
 
 ```
-raccoon/
+racoon/
 ├── Instalar Racoon.command     # One-click automated macOS installer and builder
 ├── README.md                   # Main project documentation (English)
 ├── README.es.md                # Documentación en español
